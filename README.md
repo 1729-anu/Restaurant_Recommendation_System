@@ -1,53 +1,35 @@
-# restaurant recommendation system
+# 🍽️ Restaurant Recommendation System
 
-This project is my Capstone project for the DSI 2020 training. The aim of the project is to create a restaurant recommender system that will be able to give suggestions of restaurants to users based on the restaurants reviews and previous restaurants the user has been to. 
+This project is a capstone implementation of a restaurant recommender system designed to provide personalized suggestions based on restaurant reviews and the user's previous activity.
 
-There are three product features/ models for the system:
-- Location based recommender system
-- Content based recommender system
-- Collaborative filtering recommender system
+There are three main models integrated into the system:
+- 📍 Location-Based Recommendation
+- 📄 Content-Based Recommendation
+- 🤝 Collaborative Filtering Recommendation
 
+---
 
+## 🎯 Project Objectives
 
-## Summary
+- Build an intelligent recommendation system for restaurants using various approaches.
+- Utilize restaurant review data to deliver personalized recommendations.
+- Create an interactive and user-friendly interface with Streamlit for seamless user experience.
+- Explore trade-offs between recommendation accuracy and system performance.
+- Deploy the model on a scalable platform for real-time access.
 
- - [Getting Started](#getting-started)
- - [Deployment](#deployment)
- - [Challenges](#Challenges)
- - [Authors](#authors)
- - [License](#license)
- - [Acknowledgments](#acknowledgments)
+---
 
+## 📦 Libraries Used / Tech Stack
 
-### Getting Started
- To get this project up and running in your machine, follow the steps below:
+- **Python** (Core Programming Language)
+- **Pandas** (Data Manipulation and Analysis)
+- **NumPy** (Numerical Computation)
+- **Scikit-learn** (Machine Learning Algorithms)
+- **NLTK / SpaCy** (Natural Language Processing)
+- **Surprise / LightFM** (Collaborative Filtering)
+- **Streamlit** (Web App Interface)
+- **Matplotlib / Seaborn** (Data Visualization)
+- **Scipy** (Scientific Computing)
 
- - Clone this repository to your local machine by opening your terminal and typing:
- ```
- git clone https://github.com/CateGitau/restaurant-recommendation-system
- ```
+---
 
- - install the required packages:
- ```
- pip3 install -r requirements.txt
- ```
-
- - Run the app.py file to get the project running in your local machine using Streamlit
- ```
- streamlit run app.py
- ```
-
- ### Deployment
- We used [streamlit sharing](https://www.streamlit.io/sharing) to deploy the application. All you have to do is send a request to get an invite so that you start sharing the app then follow the instructions given.
-
- ### Challenges
- The operations that are being done when the `app.py` is run takes up a lot of RAM therefore could not accommodate both content and collaborative models, if you find a fix for this please feel free to send in a PR.
-
- ### Authors
- - [Catherine Gitau](https://github.com/CateGitau)
-
- ### License
- [MIT](https://mit-license.org/)
-
- ### acknowledgements
-  We'd like to thank [Evandar Nyoni](https://github.com/Evandernyoni) who was my Tutor for the duration of this project.
